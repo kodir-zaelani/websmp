@@ -14,7 +14,7 @@
   --heading-orange-color: #FE5D37; /* Color for headings, subheadings and title throughout the website */
   --heading-pastel-color: #77dd77; /* Color for headings, subheadings and title throughout the website */
   --accent-color-orange: #FE5D37; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --accent-color: #04415f; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #04415f; /* Accent color default that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --topbar-accent-color: rgb(26, 40, 77); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --topbar-pastel-color: #77dd77; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
