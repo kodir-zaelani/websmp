@@ -54,7 +54,7 @@
             <a href="/" class=" logo d-flex align-items-center me-auto">
                 <img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo }}" alt=""
                             class="img-fluid">
-                <h5 class="m-0 text-orange text-kindegarten">
+                <h5 class="m-0">
                     @if ($global_option != '0')
                     @if ($global_option->webname)
                     {{$global_option->webname}}

@@ -13,7 +13,8 @@
   --heading-color: #011e2c; /* Color for headings, subheadings and title throughout the website */
   --heading-orange-color: #FE5D37; /* Color for headings, subheadings and title throughout the website */
   --heading-pastel-color: #77dd77; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #FE5D37; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color-orange: #FE5D37; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #04415f; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --topbar-accent-color: rgb(26, 40, 77); /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --topbar-pastel-color: #77dd77; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -24,7 +25,8 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #04415f;  /* The default color of the main navmenu links */
-  --nav-hover-color: #FE5D37; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color-orange: #FE5D37; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #2086b8; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #010608; /* Used for navigation links of the dropdown items in the navigation menu. */
@@ -235,20 +237,9 @@ h6 {
 }
 
 .header .topbar {
-  background-color: var(--topbar-pastel-color);
-  /* background-color: var(--topbar-accent-color); */
+  background-color: var(--topbar-accent-color);
   /* background-color: rgb(26, 40, 77); */
-  color: var(--contrast-pastel-color);
-  /* color: var(--contrast-color); */
-  height: 40px;
-  padding: 0;
-  transition: all 0.5s;
-  font-size: 13px;
-}
-.header .topbar-pastel {
-  background-color: var(--topbar-pastel-color);
-  /* background-color: rgb(26, 40, 77); */
-  color: var(--contrast-pastel-color);
+  color: var(--contrast-color);
   height: 40px;
   padding: 0;
   transition: all 0.5s;
