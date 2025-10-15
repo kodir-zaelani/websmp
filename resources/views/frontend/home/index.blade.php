@@ -11,9 +11,9 @@
                 <h6 class="py-3 text-center text-white fw-bold bg-warning">Info Sekolah <i class="bi bi-megaphone ms-2"></i></h6>
             </div>
             <div class="col-lg-7 col-md-7 col-12">
-                <div class="px-2 bg-light ">
-                    <marquee class="py-2" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
-                        <a href="http://smptunasberiman.test/kontak" class="text-decoration-none">Selamat datang di website kami teknologi.visitklaten.com </a>- Sharing Teknologi - Berbagi Ilmu Tentang Teknologi
+                <div class="px-2">
+                    <marquee class="py-2 text-white fw-bold" direction="left" onmouseover="this.stop()" onmouseout="this.start()">
+                        <a href="http://smptunasberiman.test/kontak" class="text-white text-decoration-none ">Selamat datang di website kami marokokreatif.com </a>- Sharing Teknologi - Berbagi Ilmu Tentang Teknologi
                     </marquee>
                 </div>
             </div>
