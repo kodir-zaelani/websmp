@@ -3,7 +3,7 @@
         <div class="row gy-4">
             <div class="col-lg-4 col-md-6 footer-about">
                 <a href="" class=" d-flex align-items-center">
-                    <h2 class="sitename text-orange text-kindegarten">{{ !empty($global_option->webname) ? $global_option->webname:'Silahkan Sesuaikan ' }}</h2>
+                    <h2 class="sitename text-kindegarten">{{ !empty($global_option->webname) ? $global_option->webname:'Silahkan Sesuaikan ' }}</h2>
                 </a>
                 <div class="pt-3 footer-contact">
                     @if ($global_option <> '0')

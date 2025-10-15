@@ -52,9 +52,8 @@
         <div class="container position-relative d-flex align-items-center justify-content-end">
 
             <a href="/" class=" logo d-flex align-items-center me-auto">
-                <img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo }}" alt=""
-                            class="img-fluid">
-                <h5 class="m-0">
+                <img src="{{ asset('') }}uploads/images/logo/{{ $global_option->logo }}" alt="" class="img-fluid d-none">
+                <h5 class="m-0 text-kindegarten">
                     @if ($global_option != '0')
                     @if ($global_option->webname)
                     {{$global_option->webname}}
@@ -129,12 +128,15 @@
                     @endif
                     @endforeach
                     @endif
+                    <li>
+                        <a class="text-center cta-btn d-md-none d-lg-none d-xl-none d-block" href="{{ route('login') }}">{{ __('Masuk') }}</a>
+                    </li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
             @guest
             @if (Route::has('login'))
-            <a class="cta-btn" href="{{ route('login') }}">{{ __('Masuk') }}</a>
+            <a class="cta-btn d-md-block d-lg-block d-xl-block d-none" href="{{ route('login') }}">{{ __('Masuk') }}</a>
             @endif
             @else
             <div class="dropdown ms-3 d-xl-block d-lg-block d-md-block d-none" >

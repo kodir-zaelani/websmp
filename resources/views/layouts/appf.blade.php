@@ -94,7 +94,7 @@
     <link href="{{ asset('') }}assets/vendor_components/aos/aos.css" rel="stylesheet">
     <link href="{{ asset('') }}assets/vendor_components/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="{{ asset('') }}assets/vendor_components/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="{{ asset('') }}assets/frontend/css/main.css" rel="stylesheet">
+    <link href="{{ asset('') }}assets/frontend/css/main-kreatif.css" rel="stylesheet">
     <title>{{ $title ?? config('app.name', 'Teras Petani') }}</title>
     @livewireStyles
 </head>

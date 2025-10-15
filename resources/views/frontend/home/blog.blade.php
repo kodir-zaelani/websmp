@@ -2,7 +2,7 @@
 
 
     <div class="container section-title" data-aos="fade-up">
-        <h2>Blog</h2>
+        <h2>Blog Guru</h2>
     </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
