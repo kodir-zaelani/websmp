@@ -1,4 +1,4 @@
-<div id="myCarousel" class="mb-6 carousel slide d-md-block d-lg-block d-xl-block d-none" data-bs-ride="carousel">
+<div id="myCarousel" class="mb-0 carousel slide d-md-block d-lg-block d-xl-block d-none" data-bs-ride="carousel">
     <div class="carousel-indicators">
         @foreach ($sliders as $key => $item)
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="{{$key}}" class="{{$key == 0 ? 'active':''}}" aria-current="true" aria-label="Slide {{$key}}"></button>
